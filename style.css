@@ -1,0 +1,37 @@
+:root {
+    --azul: #7ebaff;
+    --laranja: #f5a95c;
+    --texto: #333;
+    --link: #b31d9d;
+    --fundo: #efe788;
+}
+
+body {
+    background-color: var(--fundo);
+    color: var(--texto);
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link);
+}
+
+a:hover {
+ color: var(--laranja);
+}
+
+.navbar {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: var(--azul);
+}
